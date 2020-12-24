@@ -1,1 +1,1 @@
-https://vadim-mostovenko.github.io/Uber-website-HTML-CSS/src/index.html
+https://vadim-mostovenko.github.io/Uber-responsive-landing-page_HTML-CSS-JS/src/index.html
