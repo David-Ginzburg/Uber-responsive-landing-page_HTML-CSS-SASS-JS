@@ -118,6 +118,16 @@
 		&_link
 			font-size: 20px
 	
+	.subheader
+		&_btn
+			&:hover
+				background-image: linear-gradient(to top, $main_blue 0%, #4ce2ff 100%)
+
+	.promo
+		&_btn
+			&:hover
+				background-image: linear-gradient(to top, $main_blue 0%, #4ce2ff 100%)
+	
 	.hamburger
 		display: block
 		position: absolute
@@ -172,6 +182,10 @@
 	.mobile
 		&_item
 			width: 100%
+			&_plus
+				&:hover
+					&:before, &:after
+						background-color: $main_blue
 
 @media (max-width: 575px)
 	nav
@@ -194,8 +208,10 @@
 		&_btn
 			width: 110px
 			height: 22px
-			font-size: 10px
+			font-size: 9px
 			margin-top: 3px
+			&:hover
+				background-image: linear-gradient(to top, $main_blue 0%, #4ce2ff 100%)
 
 	.promo
 		min-height: 400px
@@ -215,6 +231,9 @@
 			width: 210px
 			height: 50px
 			margin-top: 72px
+			font-size: 17px
+			&:hover
+				background-image: linear-gradient(to top, $main_blue 0%, #4ce2ff 100%)
 
 	.menu
 		width: 85%
@@ -247,7 +266,21 @@
 		line-height: 16px
 
 	.mobile
-		padding: 25px 0 45px 0
+		padding: 20px 0 40px 0
+		.row 
+			margin-top: 30px
+		&_item 
+			height: 254px
+			padding: 20px 40px 0 40px
+			&_subtitle
+				font-size: 18px
+				line-height: 31px
+			&_plus 
+				bottom: 28px
+				&:hover
+					&:before, &:after
+						background-color: $main_blue
+
 
 	.choice
 		padding: 25px 0 33px 0
